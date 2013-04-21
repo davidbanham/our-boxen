@@ -33,3 +33,17 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "dropbox"
+github "vim"
+github "tmux"
+github "quicksilver"
+github "iterm2"
+github "skype"
+github "googledrive"
+github "divvy"
+github "chrome"
+github "wget"
+github "redis"
+github "macvim"
+github "caffeine"
