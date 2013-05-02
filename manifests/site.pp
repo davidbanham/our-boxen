@@ -62,9 +62,12 @@ node default {
   }
 
   # node versions
-  include nodejs::0-4
-  include nodejs::0-6
-  include nodejs::0-8
+  include nodejs::v0_10
+
+  # npm modules
+  nodejs::module { 'express':
+    node_version => 'v0.10'
+  }
 
   # default ruby versions
   include ruby::1_8_7
