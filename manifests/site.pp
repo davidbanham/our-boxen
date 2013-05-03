@@ -61,11 +61,14 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_10
+  include nodejs::v0_10_5
 
   # npm modules
   nodejs::module { 'express':
-    node_version => 'v0.10'
+    node_version => 'v0.10.5'
+  }
+  nodejs::module { 'coffee-script':
+    node_version => 'v0.10.5'
   }
 
   # default ruby versions
